@@ -1,0 +1,30 @@
+{
+  "name": "fs-promisified",
+  "version": "0.0.1",
+  "description": "Promise based API wrapper for the NodeJS File System with TypeScript type definitions.",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enlight/node-fs-promisified.git"
+  },
+  "keywords": [
+    "file",
+    "system",
+    "fs",
+    "promise",
+    "promisified"
+  ],
+  "author": "Vadim Macagon <vadim.macagon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enlight/node-fs-promisified/issues"
+  },
+  "homepage": "https://github.com/enlight/node-fs-promisified#readme",
+  "dependencies": {
+    "thenify": "^3.1.1"
+  }
+}
