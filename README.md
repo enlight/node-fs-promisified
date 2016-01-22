@@ -1,4 +1,4 @@
-# node-fs-promisified
+# fs-promisified
 Promise based API wrapper for the NodeJS File System with TypeScript type definitions.
 
 ## Overview
@@ -16,7 +16,7 @@ npm install https://github.com/enlight/node-fs-promisified --save
 ```
 
 ## Usage
-```
+```typescript
 import * as fsp from `fs-promisified`;
 
 fsp.readFile(someFilePath, 'utf8')
